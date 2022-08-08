@@ -1,0 +1,46 @@
+miversion
+public class beersong {
+	public static void main (strings [] args) {
+		int beerNum = 99;
+		while (beerNum>0) {
+			System.out.printin (beerNum + " bottles of beer on the wall");
+			System.out.printin (beerNum + " bottles of beer")
+			System.out.printin ("Take one down, pass it around")
+			beerNum = beerNum-1;
+			System.out.printin (beerNum + " bottles of beer on the wall");
+
+			if (beerNum == 0) {
+			System.out.printin ("No more bottles of beer on the wall");
+			} // end of if
+		} // end of while
+	} // end of main method
+} // end of class
+
+
+Java´sversion
+public class beersong {
+	public static void main (strings [] args) {
+		int beerNum = 99;
+		String word = "bottles"
+
+		while (beerNum>0) {
+			
+			if (beerNum == 1) {
+				word = "bottle"; // singular, as in ONE bottle.
+			}
+
+			System.out.printin (beerNum + " " + word + "" + "of beer on the wall");
+			System.out.printin (beerNum + " " + word + "" + "of beer")
+			System.out.printin ("Take one down");
+			System.out.printin ("Pass it around");
+			beerNum = beerNum-1;
+		
+			if (beerNum > 0) {
+				System.out.printin(beerNum + "" + word + "of beer on the wall");
+			} else {
+				System.out.printin("No more bottles of beer on the wall");
+			} // end else
+		}// end while loop
+	}// end main method
+}// end class
+		
